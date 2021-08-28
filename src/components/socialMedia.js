@@ -6,19 +6,19 @@ import { AiOutlineInstagram } from "react-icons/ai";
 const socialMedia = () => {
     return (
         <div>
-            <div className="sm-flex">
+            <div className="sm-flex flex">
                 <div className="sm1 twitter">
-                    <button className="btn-sm" href="http://" target="_blank" rel="noopener noreferrer"> 
+                    <button style={{ backgroundColor: '#FDBA23'}} className="btn-sm rounded-full px-1 pb-1" href="http://" target="_blank"> 
                         <AiOutlineTwitter  color="white" size="20" />
                     </button> 
                 </div>
-                <div className="sm2 linkedIn">
-                    <button className="btn-sm" href="http://" target="_blank" rel="noopener noreferrer"> 
+                <div className="sm2 linkedIn mx-5">
+                    <button style={{ backgroundColor: '#FDBA23'}} className="btn-sm rounded-full px-1 pb-1"> 
                         <FaLinkedinIn  color="white" size="20" />
                     </button>
                 </div>
                 <div className="sm3 instagram">
-                    <button className="btn-sm" href="http://" target="_blank" rel="noopener noreferrer"> 
+                    <button style={{ backgroundColor: '#FDBA23'}} className="btn-sm rounded-full px-1 pb-1"> 
                         <AiOutlineInstagram  color="white" size="20" />
                     </button>
                 </div>

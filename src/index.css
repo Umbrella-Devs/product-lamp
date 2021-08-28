@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -30,18 +30,12 @@ code {
   margin-top: -27px;
   position: relative;
   margin-left: -31px;
-}
-.socialMedia-head{
-  width:50%;
-  margin-top: 25px;
-  float: right;
-}
+} */
 .sm-flex{
-  width: 100%;
-  display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
 }
+/* 
 .btn-sm{
   background-color: #FDBA23;
   border: none;
@@ -199,4 +193,4 @@ h1{
   margin-right: auto;
   border: 1px solid rgb(194, 188, 188);
 }
-
+ */
